@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+body {
+    font-family:Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: rgb(47, 15, 79);
+}
+
+header {
+    background: #b07bd1;
+    color: #a02b2b;
+    padding: 1em 0;
+   
+}
+
+header h1 {
+    margin: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Playwrite BE VLG", cursive;
+}
+
+header nav {
+    text-align: right;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+   
+}
+
+.about h2{
+    padding-top: 0.5em;
+    font-size: 50px;
+    font-family: "Playwrite BE VLG", cursive;
+    color: #7b24ec;
+    text-align: left;
+}
+
+.about p{
+    font-size: 20px;
+}
+
+.about{
+    text-align: justify;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1{
+    margin: 20px;
+    float: left;
+}
+
+.img{
+    padding: 20px;
+    float:right;
+}
+
+.about button{
+    color: white;
+    background-color: #7b24ec;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-color: none;
+    border: none;
+    margin-bottom: 60px;
+    margin: 10px;
+    font-size: 20px; 
+    cursor: pointer; 
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: #7b24ec;
+    margin-top: auto;
+}
+
+p { 
+    font-size: 20px;
+} 
+
+.skillcontainer { 
+    background-color: rgb(192, 192, 192); 
+    width: 600px; 
+    border-radius: 15px; 
+} 
+
+.skill { 
+    background-color: #7b24ec; 
+    color: white; 
+    padding: 1%; 
+    text-align: right; 
+    font-size: 10px; 
+    border-radius: 15px; 
+} 
+
+.html { 
+    width: 90%; 
+} 
+
+.css { 
+    width: 70%; 
+} 
+
+.JavaScript{
+    width: 50%;
+}
+
+.C{
+    width: 90%;
+}
+
+.JAVA{
+    width: 60%;
+}
+
+.skills{
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.container2{
+   float: right; 
+   padding: 20px;
+}
+
+.img2{
+    float: left;
+    padding: 20px;
+    margin-top: 70px;
+
+}
+
+.project h2{
+    text-align: center;
+    font-size: 40px;
+    color: #7b24ec;
+    margin-top: 60px;
+}
+
+.portfolio {
+    background: #f4f4f4;
+}
+
+.portfolio-item {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.portfolio-item img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.resume h2{
+    text-align: center;
+    font-size: 40px;
+    color: #7b24ec;
+}
+
+.resume button{
+    color: white;
+    background-color: #a02b2b;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: none;
+    border: none;
+    margin-bottom: 60px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input[type=text],input[type=email],button[type=submit]{
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+.contact{
+    margin-left:200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    background-color: #c9d8e8;
+    padding: 20px;
+
+}
+  
+.contact h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.contact button{
+    color: rgb(151, 239, 235);
+    background-color: #7b24ec;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+footer nav {
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+footer h2{
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 100%;
+    color: white;
+    background-color: #7b24ec;
+    /* color: black; */
+    /* background-color: white; */
+
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
